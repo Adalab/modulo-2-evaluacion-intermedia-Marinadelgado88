@@ -1,0 +1,46 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  width: 50vw;
+  border-radius: 15px;
+  background-color: rgb(127, 192, 235);
+  width: 40vw;
+  border-radius: 15px;
+}
+.title {
+  text-align: center;
+}
+
+.result {
+  font-size: 10px;
+}
+.guess-number {
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.btn {
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.attempts {
+  padding: 10px;
+  margin: 20px;
+  background-color: orchid;
+  width: 30vw;
+  border-radius: 15px;
+}
+
+.number {
+  font-size: 10px;
+}
+.btn-reset {
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}

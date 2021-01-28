@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Evaluación Intermedia 2</title>
+    <link rel="stylesheet" href="./styles/main.css">
+
 </head>
 <body>
 
-    hola
+    <div class="game">
+        <h1 class="title">Adivina el número</h1>
+
+        <form class="form">
+            <label for="number">Introduce aquí tu número:</label>
+            <input type="number" class="js-human-number guess-number" placeholder="Entre 0 y 100">
+            <input type="button" class="js-button btn" value="Prueba">
+        </form>
+        <div class="footer">
+            <p class="result">Pista: Escribe el número y dale a Prueba</p>
+            <button class="js-reset btn-reset">Reset</button>
+        </div>
+    </div>
+    <div class="attempts">
+        <p>Número de intentos:0 <span class="js-attempts number__attempts"></span></p>
+        <p class="js-finish"></p>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
